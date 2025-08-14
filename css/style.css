@@ -135,6 +135,14 @@ h1, h2, h3, h4, h5, h6 {
     overflow: hidden;
 }
 
+.hero-section-page {
+    background: linear-gradient(135deg, var(--cream) 0%, var(--beige) 50%, var(--light-bg) 100%);
+    padding-top: 120px;
+    padding-bottom: 80px;
+    position: relative;
+    overflow: hidden;
+}
+
 .hero-section::before {
     content: '';
     position: absolute;
@@ -482,8 +490,15 @@ footer a:hover {
         padding-top: 100px;
     }
     
+    .hero-section-page {
+        padding-top: 100px;
+        padding-bottom: 60px;
+        text-align: center;
+    }
+    
     .display-4 {
         font-size: 2rem;
+        line-height: 1.2;
     }
     
     .hero-image {
@@ -511,8 +526,14 @@ footer a:hover {
         padding-right: 1rem;
     }
     
+    .hero-section-page {
+        padding-top: 90px;
+        padding-bottom: 50px;
+    }
+    
     .display-4 {
         font-size: 1.75rem;
+        line-height: 1.1;
     }
     
     .lead {

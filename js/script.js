@@ -894,5 +894,12 @@ document.addEventListener('DOMContentLoaded', () => {
     window.chatbotInstance = new Chatbot();
 });
 
+// Function to open chatbot for courses
+function openChatbotForCourses() {
+    if (window.chatbotInstance) {
+        window.chatbotInstance.openChatbot();
+    }
+}
+
 console.log('🎉 Escrita Mestra - JavaScript carregado com sucesso!');
 console.log('🤖 Chatbot inicializado com sucesso!');

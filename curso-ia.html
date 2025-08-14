@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Núcleo de Escrita Acadêmica com IA - Curso Completo</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">
+                <span class="text-primary">Núcleo de Escrita</span><span class="text-dark"> com IA</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicos.html">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cursos.html">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section-page gradient-bg py-5" style="padding-top: 120px !important; min-height: 100vh !important;">
+        <div class="container">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-6">
+                    <div class="hero-content">
+                        <h1 class="display-5 fw-bold mb-4 hero-title-visible" style="color: #000000 !important; background: linear-gradient(135deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.6) 50%, rgba(255,255,255,0.2) 100%) !important; padding: 25px 30px !important; border-radius: 20px !important; position: relative !important; top: 0 !important; left: 0 !important; transform: none !important; margin-top: 0 !important; backdrop-filter: blur(10px) !important; border: 1px solid rgba(255,255,255,0.3) !important; box-shadow: 0 8px 32px rgba(0,0,0,0.1) !important;">
+                            <span style="color: #8B5A3C !important; text-shadow: none !important;">Núcleo de Escrita</span><br>
+                            <span style="color: #6B4423 !important; text-shadow: none !important;">Acadêmica com IA</span>
+                        </h1>
+                        <p class="lead mb-4 hero-paragraph-strong">
+                            Domine a arte da escrita acadêmica com o poder da Inteligência Artificial. 
+                            Acesse nossa área exclusiva com <strong>PROMPTS</strong> e <strong>TUTORIAIS</strong> 
+                            completos que ajudarão a produzir projetos, artigos, dissertações e teses de excelência.
+                        </p>
+
+                        
+                        <!-- AI Tools Icons -->
+                        <div class="ai-tools-section">
+                            <p class="mb-3" style="color: #8B5A3C;">Aprenda a usar as principais ferramentas de IA:</p>
+                            <div class="ai-icons d-flex flex-wrap gap-3">
+                                <div class="ai-icon-item text-center">
+                                    <div class="ai-icon-circle bg-white p-3 rounded-circle shadow">
+                                        <img src="img/ChatGPT.jpg" alt="ChatGPT" style="width: 1.5rem; height: 1.5rem; object-fit: cover; border-radius: 50%;">
+                                    </div>
+                                    <small class="d-block mt-2" style="color: #ffffff00;">ChatGPT</small>
+                                </div>
+                                <div class="ai-icon-item text-center">
+                                    <div class="ai-icon-circle bg-white p-3 rounded-circle shadow">
+                                        <img src="img/Deepseek.jpg" alt="Deepseek" style="width: 1.5rem; height: 1.5rem; object-fit: cover; border-radius: 50%;">
+                                    </div>
+                                    <small class="d-block mt-2" style="color: #e9ecef;">Claude</small>
+                                </div>
+                                <div class="ai-icon-item text-center">
+                                    <div class="ai-icon-circle bg-white p-3 rounded-circle shadow">
+                                        <img src="img/Google-Gemini.png" alt="Google Gemini" style="width: 1.5rem; height: 1.5rem; object-fit: cover; border-radius: 50%;">
+                                    </div>
+                                    <small class="d-block mt-2" style="color: #e9ecef;">Gemini</small>
+                                </div>
+                                <div class="ai-icon-item text-center">
+                                    <div class="ai-icon-circle bg-white p-3 rounded-circle shadow">
+                                        <img src="img/Claude.png" alt="Claude" style="width: 1.5rem; height: 1.5rem; object-fit: cover; border-radius: 50%;">
+                                    </div>
+                                    <small class="d-block mt-2" style="color: #e9ecef;">Grok</small>
+                                </div>
+                                <div class="ai-icon-item text-center">
+                                    <div class="ai-icon-circle bg-white p-3 rounded-circle shadow">
+                                        <img src="img/grok.png" alt="Grok" style="width: 1.5rem; height: 1.5rem; object-fit: cover; border-radius: 50%;">
+                                    </div>
+                                    <small class="d-block mt-2" style="color: #e9ecef;">DeepSeek</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="hero-image text-center">
+                        <!-- AI-themed SVG illustration -->
+                        <svg width="500" height="400" viewBox="0 0 500 400" class="img-fluid">
+                            <!-- Background circles -->
+                            <circle cx="250" cy="200" r="180" fill="url(#gradient1)" opacity="0.1"/>
+                            <circle cx="250" cy="200" r="120" fill="url(#gradient2)" opacity="0.2"/>
+                            
+                            <!-- AI Robot -->
+                            <g transform="translate(200, 150)">
+                                <!-- Robot head -->
+                                <rect x="30" y="20" width="60" height="50" rx="10" fill="url(#robotGradient)" stroke="#fff" stroke-width="2"/>
+                                <!-- Robot eyes -->
+                                <circle cx="45" cy="35" r="6" fill="#00BFFF"/>
+                                <circle cx="75" cy="35" r="6" fill="#00BFFF"/>
+                                <circle cx="45" cy="35" r="3" fill="#fff"/>
+                                <circle cx="75" cy="35" r="3" fill="#fff"/>
+                                <!-- Robot mouth -->
+                                <rect x="50" y="50" width="20" height="8" rx="4" fill="#333"/>
+                                <!-- Robot antenna -->
+                                <line x1="60" y1="20" x2="60" y2="10" stroke="#FFD700" stroke-width="3"/>
+                                <circle cx="60" cy="8" r="4" fill="#FF6B6B"/>
+                            </g>
+                            
+                            <!-- Laptops floating around -->
+                            <g transform="translate(130, 90)">
+                                <!-- Laptop base -->
+                                <rect x="0" y="25" width="50" height="20" rx="3" fill="#2C3E50"/>
+                                <!-- Laptop screen -->
+                                <rect x="5" y="5" width="40" height="25" rx="2" fill="#34495E" stroke="#fff" stroke-width="1"/>
+                                <!-- Screen content -->
+                                <rect x="8" y="8" width="34" height="19" fill="#00BFFF" opacity="0.8"/>
+                                <text x="25" y="20" font-family="Arial" font-size="8" fill="#fff" text-anchor="middle">AI</text>
+                            </g>
+                            
+                            <g transform="translate(300, 110)">
+                                <!-- Laptop base -->
+                                <rect x="0" y="25" width="50" height="20" rx="3" fill="#8B4513"/>
+                                <!-- Laptop screen -->
+                                <rect x="5" y="5" width="40" height="25" rx="2" fill="#A0522D" stroke="#fff" stroke-width="1"/>
+                                <!-- Screen content -->
+                                <rect x="8" y="8" width="34" height="19" fill="#FFD700" opacity="0.8"/>
+                                <text x="25" y="20" font-family="Arial" font-size="8" fill="#333" text-anchor="middle">ML</text>
+                            </g>
+                            
+                            <!-- Graduation cap -->
+                            <g transform="translate(220, 280)">
+                                <ellipse cx="30" cy="15" rx="35" ry="8" fill="#2C3E50"/>
+                                <rect x="10" y="10" width="40" height="8" fill="#2C3E50"/>
+                                <rect x="45" y="8" width="3" height="15" fill="#DAA520"/>
+                                <circle cx="48" cy="8" r="2" fill="#DAA520"/>
+                            </g>
+                            
+                            <!-- Floating Tech symbols -->
+                            <g class="floating-symbols">
+                                <!-- Gear icon -->
+                                <g transform="translate(90, 60)">
+                                    <circle cx="10" cy="10" r="8" fill="none" stroke="#FFD700" stroke-width="2" opacity="0.7"/>
+                                    <circle cx="10" cy="10" r="3" fill="#FFD700" opacity="0.7"/>
+                                    <rect x="8" y="2" width="4" height="4" fill="#FFD700" opacity="0.7"/>
+                                    <rect x="8" y="14" width="4" height="4" fill="#FFD700" opacity="0.7"/>
+                                    <rect x="2" y="8" width="4" height="4" fill="#FFD700" opacity="0.7"/>
+                                    <rect x="14" y="8" width="4" height="4" fill="#FFD700" opacity="0.7"/>
+                                </g>
+                                <!-- Circuit pattern -->
+                                <g transform="translate(370, 80)">
+                                    <rect x="0" y="0" width="20" height="15" fill="none" stroke="#8B4513" stroke-width="1" opacity="0.6"/>
+                                    <circle cx="5" cy="5" r="2" fill="#8B4513" opacity="0.6"/>
+                                    <circle cx="15" cy="10" r="2" fill="#8B4513" opacity="0.6"/>
+                                    <line x1="5" y1="5" x2="15" y2="10" stroke="#8B4513" stroke-width="1" opacity="0.6"/>
+                                </g>
+                                <!-- Data nodes -->
+                                <text x="120" y="320" font-family="Arial" font-size="18" fill="#DAA520" opacity="0.7">DATA</text>
+                                <text x="340" y="300" font-family="Arial" font-size="14" fill="#CD853F" opacity="0.6">NEURAL</text>
+                            </g>
+                            
+                            <!-- Gradients -->
+                            <defs>
+                                <linearGradient id="gradient1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#8B4513;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#DAA520;stop-opacity:1" />
+                                </linearGradient>
+                                <linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#DAA520;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#FFD700;stop-opacity:1" />
+                                </linearGradient>
+                                <linearGradient id="robotGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#34495E;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#2C3E50;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Course Details Section -->
+    <section id="detalhes" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center mb-5">
+                    <h2 class="display-5 fw-bold mb-4">O que você vai aprender</h2>
+                    <p class="lead">Um curso completo que revolucionará sua forma de escrever textos acadêmicos</p>
+                </div>
+            </div>
+            
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm card-hover">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon mb-3">
+                                <i class="fas fa-robot fa-3x text-primary"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Prompts Exclusivos</h5>
+                            <p class="card-text">Biblioteca completa de prompts testados e aprovados para cada tipo de texto acadêmico.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm card-hover">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon mb-3">
+                                <i class="fas fa-video fa-3x text-success"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Tutoriais Completos</h5>
+                            <p class="card-text">Vídeo-aulas passo a passo mostrando como usar cada ferramenta de IA de forma eficiente.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm card-hover">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon mb-3">
+                                <i class="fas fa-graduation-cap fa-3x text-warning"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Projetos Práticos</h5>
+                            <p class="card-text">Aprenda criando artigos, dissertações e teses reais com orientação especializada.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm card-hover">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon mb-3">
+                                <i class="fas fa-tools fa-3x text-info"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Ferramentas de IA</h5>
+                            <p class="card-text">Domine ChatGPT, Claude, Gemini, Grok e DeepSeek para escrita acadêmica.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm card-hover">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon mb-3">
+                                <i class="fas fa-certificate fa-3x text-danger"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Certificação</h5>
+                            <p class="card-text">Receba certificado de conclusão reconhecido no meio acadêmico.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-0 shadow-sm card-hover">
+                        <div class="card-body text-center p-4">
+                            <div class="feature-icon mb-3">
+                                <i class="fas fa-users fa-3x text-purple"></i>
+                            </div>
+                            <h5 class="card-title fw-bold">Comunidade</h5>
+                            <p class="card-text">Acesso exclusivo à comunidade de estudantes e pesquisadores.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="comprar" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center mb-5">
+                    <h2 class="display-5 fw-bold mb-4">Invista no seu futuro acadêmico</h2>
+                    <p class="lead">Transforme sua escrita acadêmica com o poder da Inteligência Artificial</p>
+                </div>
+            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="card border-0 shadow-lg">
+                        <div class="card-header bg-primary text-white text-center py-4">
+                            <h3 class="card-title mb-0 fw-bold">Núcleo de Escrita Acadêmica com IA</h3>
+                        </div>
+                        <div class="card-body p-5">
+                            <div class="text-center mb-4">
+                                <span class="display-4 fw-bold text-primary">R$ 497</span>
+                                <span class="text-muted">/curso completo</span>
+                            </div>
+                            
+                            <ul class="list-unstyled mb-4">
+                                <li class="mb-2">
+                                    <i class="fas fa-check text-success me-2"></i>
+                                    Acesso vitalício ao curso
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check text-success me-2"></i>
+                                    +200 prompts exclusivos
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check text-success me-2"></i>
+                                    Tutoriais em vídeo
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check text-success me-2"></i>
+                                    Suporte especializado
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check text-success me-2"></i>
+                                    Certificado de conclusão
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check text-success me-2"></i>
+                                    Comunidade exclusiva
+                                </li>
+                                <li class="mb-2">
+                                    <i class="fas fa-check text-success me-2"></i>
+                                    Atualizações gratuitas
+                                </li>
+                            </ul>
+                            
+                            <div class="d-grid">
+                                <a href="#" class="btn btn-primary btn-lg">
+                                    <i class="fas fa-shopping-cart me-2"></i>
+                                    Inscrever-se Agora
+                                </a>
+                            </div>
+                            
+                            <div class="text-center mt-3">
+                                <small class="text-muted">
+                                    <i class="fas fa-shield-alt me-1"></i>
+                                    Garantia de 30 dias ou seu dinheiro de volta
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-3">
+                        <span class="text-primary">Núcleo de Escrita</span> com IA
+                    </h5>
+                    <p>
+                        Transformando a escrita acadêmica através da Inteligência Artificial. 
+                        Junte-se a milhares de estudantes e pesquisadores que já revolucionaram 
+                        sua forma de escrever.
+                    </p>
+                </div>
+                
+                <div class="col-lg-4">
+                    <h6 class="fw-bold mb-3">Links Rápidos</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white-50 text-decoration-none">Início</a></li>
+                        <li><a href="sobre.html" class="text-white-50 text-decoration-none">Sobre</a></li>
+                        <li><a href="servicos.html" class="text-white-50 text-decoration-none">Serviços</a></li>
+                        <li><a href="cursos.html" class="text-white-50 text-decoration-none">Cursos</a></li>
+                        <li><a href="contato.html" class="text-white-50 text-decoration-none">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-lg-4">
+                    <h6 class="fw-bold mb-3">Contato</h6>
+                    <ul class="list-unstyled">
+                        <li class="text-white-50">
+                            <i class="fas fa-envelope me-2"></i>
+                            contato@nucleoescritaia.com
+                        </li>
+                        <li class="text-white-50">
+                            <i class="fas fa-phone me-2"></i>
+                            (11) 99999-9999
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <hr class="my-4">
+            
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="mb-0 text-white-50">
+                        &copy; 2024 Núcleo de Escrita com IA. Todos os direitos reservados.
+                    </p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <div class="social-links">
+                        <a href="#" class="text-white-50 me-3">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="text-white-50 me-3">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="#" class="text-white-50">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+    
+    <style>
+        .ai-icons {
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        .ai-icon-circle {
+            transition: transform 0.3s ease;
+        }
+        
+        .ai-icon-circle:hover {
+            transform: scale(1.1);
+        }
+        
+        .floating-symbols {
+            animation: float 4s ease-in-out infinite;
+        }
+        
+        .text-purple {
+            color: #7B68EE !important;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+    </style>
+</body>
+</html>

@@ -129,6 +129,16 @@ h1, h2, h3, h4, h5, h6 {
     transition: var(--transition);
     backdrop-filter: blur(10px);
     background-color: rgba(255, 255, 255, 0.95) !important;
+    width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin: 0;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
 }
 
 /* Responsividade do navbar */
@@ -152,15 +162,21 @@ h1, h2, h3, h4, h5, h6 {
 @media (max-width: 768px) {
     .navbar {
         padding: 0.5rem 0;
-        width: 100%;
+        width: 100vw;
         max-width: 100vw;
         overflow-x: hidden;
         margin: 0;
+        box-sizing: border-box;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
     }
     
     .navbar .container {
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
         max-width: 100%;
         width: 100%;
         margin: 0;
@@ -168,6 +184,7 @@ h1, h2, h3, h4, h5, h6 {
         align-items: center;
         justify-content: space-between;
         flex-wrap: nowrap;
+        box-sizing: border-box;
     }
     
     .navbar-brand {
@@ -195,19 +212,23 @@ h1, h2, h3, h4, h5, h6 {
     }
     
     /* Garantir que não haja overflow horizontal */
-    body {
+    html, body {
         overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        max-width: 100%;
     }
     
     .container {
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
         max-width: 100%;
     }
     
     .container-fluid {
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
         max-width: 100%;
     }
 }
@@ -298,29 +319,35 @@ h1, h2, h3, h4, h5, h6 {
 /* Correção adicional para telas muito pequenas */
 @media (max-width: 480px) {
     .navbar {
-        padding: 0.25rem 0;
+        padding: 0.4rem 0;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        position: relative;
+        left: 0;
+        right: 0;
     }
     
     .navbar .container {
-        padding-left: 0.25rem;
-        padding-right: 0.25rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
     
     .navbar-brand {
         font-size: 1rem;
         max-width: calc(100% - 45px);
-        margin-right: 0.25rem;
+        margin-right: 0.3rem;
     }
     
     .navbar-toggler {
-        width: 30px;
-        height: 30px;
-        padding: 0.1rem;
+        width: 32px;
+        height: 32px;
+        padding: 0.15rem;
     }
     
     .navbar-toggler-icon {
-        width: 1.2em;
-        height: 1.2em;
+        width: 1.1em;
+        height: 1.1em;
     }
 }
 
